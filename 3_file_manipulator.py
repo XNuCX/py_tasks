@@ -5,7 +5,6 @@ while not commands == "End":
     command, *rest = commands.split("-")
     if command == "Create":
         file_name = rest[0]
-        print(file_name)
         with open(f"{file_name}", "w") as file_name:
             pass
 
